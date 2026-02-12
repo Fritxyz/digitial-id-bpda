@@ -1,0 +1,111 @@
+body{
+  margin: none;
+  background:#e5e5e5;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+}
+
+/* ID CARD */
+.id-card{
+width:400px;
+height:650px;
+background:white;
+margin:30px auto;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 6px 15px rgba(0,0,0,0.2);
+position:relative;
+}
+
+/* TOP HEADER */
+.header{
+background:#ffffff;
+color:white;
+text-align:center;
+padding:15px 10px;
+position:relative;
+}
+
+.header img{
+position:absolute;
+top:10px;
+}
+
+
+
+.logo-left{ left:10px; width:70px;
+  height: 70px;}
+.logo-right{ right:10px; width:80px;
+  height: 70px;}
+
+.header h2{
+  margin:5px 0;
+ font-size:12px;
+ font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+/* INTERN VERTICAL TEXT */
+.vertical-text{
+position:absolute;
+left: 2%;
+top:150px;
+writing-mode: vertical-rl;
+transform: rotate(180deg);
+font-size:40px;
+font-weight:bold;
+color:#0a7a32;
+letter-spacing:3px;
+}
+
+/* PROFILE IMAGE */
+.profile{
+text-align:center;
+margin-top:30px;
+}
+
+.profile img{
+width:170px;
+height:200px;
+object-fit:cover;
+border:5px solid #0a7a32;
+}
+
+/* NAME BAR */
+.name-bar{
+background:#0a7a32;
+color:white;
+text-align:center;
+padding:10px;
+font-size:28px;
+font-weight:bold;
+margin-top:20px;
+}
+
+/* DETAILS */
+.details{
+text-align:center;
+}
+
+.details h3{
+  margin-bottom: 2px;
+font-size:18px;
+}
+
+.details p{
+margin:2px 0;
+font-size:14px;
+color:#555;
+}
+
+/* FOOTER */
+.footer{
+position:absolute;
+bottom:0;
+width:100%;
+background:#0a7a32;
+color:white;
+text-align:center;
+padding:10px;
+font-size:12px;
+}
